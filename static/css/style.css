@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: azure;
+  text-align: center;
+}
+.colored-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(160, 135, 159);
+  border: 1px solid black;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.colored-w {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(58, 69, 40);
+  border: 1px solid black;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.board {
+  height: 500px;
+  width: 500px;
+  display: grid;
+}
+.food-appear {
+  margin: 1px 1px 1px 1px;
+  background-color: hsl(74, 62%, 45%);
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+}
+
+.myMove {
+  position: absolute;
+  background-color: rgb(134, 17, 58);
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+}
+
+.visited {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(230, 113, 24);
+}
